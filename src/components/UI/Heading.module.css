@@ -1,0 +1,7 @@
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--color-primary-yellow);
+  margin: 0;
+}

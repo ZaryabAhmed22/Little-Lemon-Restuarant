@@ -1,0 +1,11 @@
+.testimonials-section {
+  background-color: var(--color-white);
+  padding: 80px 50px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 40px;
+  margin: 70px 0px 40px;
+}

@@ -1,0 +1,27 @@
+.card-section {
+  background-color: var(--color-tertiary-light);
+  padding: 120px 50px 100px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-start {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 80px;
+  margin-top: 80px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
