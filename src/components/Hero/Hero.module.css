@@ -41,6 +41,6 @@
 .hero-image img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 500px;
   border-radius: 20px;
 }

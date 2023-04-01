@@ -4,29 +4,35 @@ import Card from "../UI/Card";
 import Heading from "../UI/Heading";
 import SubHeading from "../UI/SubHeading";
 import styles from "./About.module.css";
+import dish1 from "../../images/dish1.jpg";
+import dish2 from "../../images/dish2.jpg";
+import dish3 from "../../images/greek salad.jpg";
 
 export default function About() {
   const data = [
     {
       id: 1,
-      title: "Card Title 1",
+      title: "Sunday Special",
       price: "$19.99",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis.",
+      image: dish1,
     },
     {
       id: 2,
-      title: "Card Title 2",
+      title: "Special Chieck Staek",
       price: "$29.99",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis.",
+      image: dish2,
     },
     {
       id: 3,
-      title: "Card Title 3",
+      title: "Greek Salad",
       price: "$24.99",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus sit amet mauris non convallis.",
+      image: dish3,
     },
   ];
 
@@ -38,6 +44,7 @@ export default function About() {
           title={item.title}
           price={item.price}
           description={item.description}
+          image={item.image}
         />
       </div>
     );

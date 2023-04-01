@@ -2,12 +2,13 @@ import React from "react";
 import Button from "../UI/Button";
 import styles from "./Header.module.css";
 import NavLink from "./NavLink";
+import logoImage from "../../images/Logo.svg";
 
 export default function () {
   return (
     <nav className={styles["nav-bar"]}>
       <div className={styles.logo}>
-        <img src="https://dummyimage.com/100x50/000/fff" alt="Company Logo" />
+        <img src={logoImage} alt="Company Logo" />
       </div>
       <div className={styles.link}>
         <NavLink href="#about-sction" active={true}>

@@ -2,6 +2,8 @@ import React from "react";
 import Heading from "../UI/Heading";
 import SubHeading from "../UI/SubHeading";
 import styles from "./History.module.css";
+import imageA from "../../images/Mario and Adrian A.jpg";
+import imageB from "../../images/Mario and Adrian b.jpg";
 
 export default function History() {
   return (
@@ -35,8 +37,12 @@ export default function History() {
           alt="History Image 2"
           class="history-image-2"
         /> */}
-        <div className={styles["history-image-box-1"]}></div>
-        <div className={styles["history-image-box-2"]}></div>
+        <div className={styles["history-image-box-1"]}>
+          {/* <img src={imageA} alt="History Image 1" class="history-image" /> */}
+        </div>
+        <div className={styles["history-image-box-2"]}>
+          {/* <img src={imageB} alt="History Image 1" class="history-image" /> */}
+        </div>
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className={styles["card"]}>
       <div className={styles["card-image"]}>
-        <img src="https://dummyimage.com/600x400/000/fff" alt="Card Image" />
+        <img src={props.image} alt="Card Image" />
       </div>
       <div className={styles["card-content"]}>
         <div className={styles["card-header"]}>

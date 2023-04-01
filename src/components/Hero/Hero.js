@@ -24,7 +24,10 @@ export default function Hero() {
         </Button>
       </div>
       <div className={styles["hero-image"]}>
-        <img src="https://dummyimage.com/500x500/000/fff" alt="Hero Image" />
+        <img
+          src="https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="Hero Image"
+        />
       </div>
     </section>
   );

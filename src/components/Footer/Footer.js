@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import logo from "../../images/Logo.svg";
 
 export default function Footer() {
   return (
     <footer class={styles["footer"]}>
       <div class={styles["footer-wrapper"]}>
         <div class={styles["logo-column"]}>
-          <img src="company-logo.png" alt="Company Logo" />
-          <p>A short description of the company.</p>
+          <img src={logo} alt="Company Logo" />
+          <p>Cafe where you can feel home.</p>
           <div class={styles["social-icons"]}>
             <a href="#">
               <i class="fa fa-facebook"></i>
